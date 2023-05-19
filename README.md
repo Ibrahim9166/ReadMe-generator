@@ -1,7 +1,7 @@
-# ReadMe Generator
+# README generator
   
   ## Description
-  generates readme files to save time on any project
+  generates readme files based on the information you input
   
   ## Table of Contents
   - [Installation](#installation)
@@ -12,10 +12,10 @@
   - [Questions](#questions)
   
   ## Installation
-  download app and run it through node.js
+   run the app and use node.js to go through the prompt
   
   ## Usage
-  usage is for a quicker and reliable way to make readme files
+  this is used to save time making a readme file
   
   ## License
   This project is covered under the None license.

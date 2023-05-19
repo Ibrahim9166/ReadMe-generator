@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const path = require('path');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -58,7 +59,7 @@ function writeToFile(fileName, data) {
     if (err) {
       console.error(err);
     } else {
-      console.log('README.md file generated successfully!');
+        console.log(`README.md generated successfully! File path: ${path.resolve(fileName)}`);
     }
   });
 }
